@@ -1,3 +1,52 @@
 body{
     margin:0%;
+    font-family: 'Poppins', sans-serif;
+
 }
+
+.flexible1{
+    display:flex;
+    background-image: url(images/bg.png);
+    background-repeat: no-repeat;
+}
+
+.flexible2{
+    display:flex;
+}
+.leftside {
+    width: 50%;
+    margin-top: 60px;
+    padding-left: 10%;
+
+}
+.leftside h1{
+font-size: 2.6rem;
+}
+
+.rightside {
+    width: 50%;
+}
+
+
+.borno{
+    color:darkturquoise;
+}
+
+
+.my_button{
+    text-decoration: none;
+    color:white;
+    font-weight: 700;
+    background-color:darkturquoise;
+    padding: 5px 10px 5px 10px;
+}
+
+.uppic{
+
+    height: 100%;
+    width: 100%;
+}
+/* That is only upper side*/
+
+
+
