@@ -13,6 +13,12 @@ body{
 .flexible2{
     display:flex;
 }
+
+.flexible3{
+    display:flex;
+    margin-bottom: 200px;
+   
+}
 .leftside {
     width: 50%;
     margin-top: 60px;
@@ -46,7 +52,49 @@ font-size: 2.6rem;
     height: 100%;
     width: 100%;
 }
-/* That is only upper side*/
 
+.card1{
+    width: 45%;
+    box-shadow: gray;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 10px 10px 40px gray;
+    margin-right: 10%;
+    margin-left: 5%;
+    padding-bottom:30 px ;
+    border-radius: 20px;
+   
+    
+}
+.card2{
+    width: 45%;
+    box-shadow: gray;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;;
+    box-shadow: 10px 10px 40px gray;
+    margin-right: 10%;
+    margin-left: 5%;
+    border-radius: 20px;
+    
+}
 
+#cardish1 {
 
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice:1;
+}
+#cardish2 {
+
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(17, 255, 17),cyan);
+    border-image-slice:1;
+}
+section h2{
+    font-size: 2.7rem;
+}
+footer p{
+text-align: center;
+min-height: 100px;;
+}
